@@ -39,3 +39,13 @@
                 };
         };
 };
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_esc {
+            timeout-ms = <1000>;
+            key-positions = <0 1 2 3>;
+            bindings = <&reset>;
+        };
+    };
+};
