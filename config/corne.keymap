@@ -24,7 +24,7 @@
                         bindings = <
    &kp ESC    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5          &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
    &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &kp SQT &kp LBKT &kp RBKT &kp BSLH &kp GRAVE &kp DEL
-   &kp LSHFT &trans &trans &trans &kp K_VOL_DN &kp K_VOL_UP           &trans &trans &trans &trans &trans &trans
+   &kp LSHFT &kp C_BRI_DN &kp C_BRI_UP &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP           &trans &trans &trans &trans &trans &trans
                                         &kp LALT &kp LCTRL &kp LGUI  &trans &trans &trans
                         >;
                 };
